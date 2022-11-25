@@ -6,8 +6,6 @@
 }
 
 .mat-card {
-  /* background-color: rgb(255, 255, 255);
-  color: black; */
   margin: 2px;
 }
 
@@ -18,12 +16,6 @@
 .button{
   margin: 5px;
 }
-
-.mat-card-actions{
-display: flex;
-justify-content: center;
-}
-
 
 .example-spacer {
   flex: 1 1 auto;

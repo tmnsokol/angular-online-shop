@@ -3,7 +3,8 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-.footer{
-  position: fixed;
+/* .footer{
+  height: 50px;
   bottom: 0;
-}
+  position: absolute;
+} */
