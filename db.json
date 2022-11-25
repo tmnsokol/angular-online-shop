@@ -1,0 +1,59 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "MacBook",
+      "price": 900,
+      "year": "2022",
+      "image": "assets/Images/macbook.jpg",
+      "configure": {
+        "chip": "M1",
+        "ssd": "256GB",
+        "memory": "16GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 2,
+      "title": "MacBook Pro (Intel)",
+      "price": 1000,
+      "year": "2023",
+      "image": "assets/Images/macbook.jpg",
+      "configure": {
+        "chip": "M1",
+        "ssd": "256GB",
+        "memory": "16GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 3,
+      "title": "1323",
+      "price": "234343",
+      "year": null,
+      "image": "assets/Images/macbook.jpg",
+      "configure": {
+        "chip": null,
+        "ssd": null,
+        "memory": null,
+        "display": null
+      }
+    }
+  ],
+  "basket": [
+    {
+      "id": 2,
+      "title": "MacBook Pro (Intel)",
+      "price": 1000,
+      "year": "2023",
+      "image": "assets/Images/macbook.jpg",
+      "configure": {
+        "chip": "M1",
+        "ssd": "256GB",
+        "memory": "16GB",
+        "display": "Retina"
+      },
+      "quanity": 1
+    }
+  ]
+}

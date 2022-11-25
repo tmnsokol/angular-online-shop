@@ -1,0 +1,26 @@
+.container {
+  margin: 0 auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.image{
+  max-width: 300px;
+}
+
+.button{
+  margin: 5px;
+}
+
+.mat-card-actions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .no-select{
+    cursor: pointer;
+    user-select: none;
+  }

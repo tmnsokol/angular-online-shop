@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mat-card {
+  /* background-color: rgb(255, 255, 255);
+  color: black; */
+  margin: 2px;
+}
+
+.image{
+  max-width: 300px;
+}
+
+.button{
+  margin: 5px;
+}
+
+.mat-card-actions{
+display: flex;
+justify-content: center;
+}
+
+
+.example-spacer {
+  flex: 1 1 auto;
+}

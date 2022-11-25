@@ -1,0 +1,27 @@
+<div class="container">
+  <mat-card class="mat-card" *ngFor="let product of basket">
+    <mat-card-title>{{product.title}}</mat-card-title>
+    <img class="image" mat-card-image [src]="product.image" alt="Not found">
+
+    <mat-card-content>
+      <p>Year: {{product.year}}</p>
+      <p>Chip: {{product.configure.chip}}</p>
+      <p>SSD: {{product.configure.ssd}}</p>
+      <p>Memory: {{product.configure.memory}}</p>
+      <p>Display: {{product.configure.display}}</p>
+    </mat-card-content>
+
+    <mat-card-actions class="mat-card-actions">
+      <button class="button" mat-flat-button color="primary" (click)="minusProductFromBasket(product)">-</button>
+      <p>Количество: {{product.quanity}}</p>
+      <button class="button" mat-flat-button color="primary" (click)="plusProductToBasket(product)">+</button>
+
+      <div class="no-select" (click)="deleteProductFromBasket(product.id)">
+        <mat-icon color="primary">delete</mat-icon>
+      </div>
+
+    </mat-card-actions>
+  </mat-card>
+
+  <ng-template #loading>loading...</ng-template>
+</div>
